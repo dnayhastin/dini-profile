@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(blue.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.profile-box{
+    background-color: rgb(141, 169, 185);
+    text-align: left;
+    padding: 40px 90px;
+    color: rgb(23, 31, 46);
+    border-radius: 12px;
+    position: relative;
+}
+.profil-pic{
+    width: 150px;
+    border-radius: 50px;
+    background-color: rgb(25, 35, 35);
+    padding: 6px;
+    margin-top: 50px;
+}
+.sosial-media img{
+    width: 20px;
+    margin: 30x 0;
+    cursor: pointer;
+    
+}
+.button{
+    background: #6d829b;
+    color: black;
+    border: none;
+    outline: none;
+    padding: 15px 60px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px #6d829b;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 30px;
+}
